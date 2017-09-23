@@ -1,0 +1,23 @@
+<h1>Ejemplo 2</h1>
+<p>
+  El valor de x es {{ x }}
+</p>
+<p>
+  El valor de x + 30 es {{ x + 30 }}
+</p>
+<p>
+  El valor de palabra es {{ palabra }}
+</p>
+<p>
+  El valor de palabra en mayuscula es {{ palabra | uppercase }}
+</p>
+<input type="text" value="{{ palabra }}"/>
+
+<h2>Empleado</h2>
+<p>
+  El valor de employee is {{ empleado | json }} <br/>
+  Name: {{ empleado.name }}<br/>
+  Last Name: {{ empleado.lastName }} <br/>
+  Position: {{ empleado.position }} <br/>
+  Salary: {{ empleado.salary }} <br/>
+</p>
