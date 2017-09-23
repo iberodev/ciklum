@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { Ejemplo01Component } from './ejemplo01/ejemplo01.component';
@@ -8,6 +9,7 @@ import { Ejemplo03Component } from './ejemplo03/ejemplo03.component';
 import { Ejemplo04Component } from './ejemplo04/ejemplo04.component';
 import { Ejemplo05Component } from './ejemplo05/ejemplo05.component';
 import { Ejemplo07Component } from './ejemplo07/ejemplo07.component';
+import { Ejemplo08Component } from './ejemplo08/ejemplo08.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { Ejemplo07Component } from './ejemplo07/ejemplo07.component';
     Ejemplo03Component,
     Ejemplo04Component,
     Ejemplo05Component,
-    Ejemplo07Component
+    Ejemplo07Component,
+    Ejemplo08Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

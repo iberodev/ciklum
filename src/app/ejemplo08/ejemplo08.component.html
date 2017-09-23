@@ -1,0 +1,10 @@
+<h1>Ejemplo 8</h1>
+<h2>Frutas</h2>
+<div *ngFor="let fruta of frutas">{{fruta}}</div>
+Inserta frutas:
+<input type="text" [(ngModel)]="fruta" (keyup.enter)="insertaFruta()" />
+
+<h2>Numeros</h2>
+<div *ngFor="let numero of numeros">{{numero}}</div>
+Inserta numero:
+<input type="text" [(ngModel)]="numero" (keyup.enter)="insertaNumero()" />
