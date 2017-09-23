@@ -7,6 +7,7 @@ import { Ejemplo02Component } from './ejemplo02/ejemplo02.component';
 import { Ejemplo03Component } from './ejemplo03/ejemplo03.component';
 import { Ejemplo04Component } from './ejemplo04/ejemplo04.component';
 import { Ejemplo05Component } from './ejemplo05/ejemplo05.component';
+import { Ejemplo07Component } from './ejemplo07/ejemplo07.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Ejemplo05Component } from './ejemplo05/ejemplo05.component';
     Ejemplo02Component,
     Ejemplo03Component,
     Ejemplo04Component,
-    Ejemplo05Component
+    Ejemplo05Component,
+    Ejemplo07Component
   ],
   imports: [
     BrowserModule
